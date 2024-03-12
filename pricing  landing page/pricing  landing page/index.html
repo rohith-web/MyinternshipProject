@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Pricing Table </title>
+</head>
+<body>
+    <div class="top-banner">
+        <p class ="current-plan">CHOOSE YOUR RIDE </p>
+        <P class =" plan-type"> Hop on ...</P>
+    </div>
+
+    <div class =" container">
+        <h1 class ="title ">choose a vehicle </h1>
+        <div class =" toggle-switch">
+            <span>Bike</span>
+            <input type ="checkbox" class="toggler">
+            <span > Car</span> 
+
+        </div>
+        <div class ="cards">
+
+            <!-- STARTER -->
+            <div class ="card" id="card-1">
+                <h1 class ="card-title"> low-end</h1>
+                <h2 class ="card-price" id="starter-price" > 1000Rs<span> /day </span></h2>
+                <ul class ="card-plan">
+                    <li>No Riding Limits </li>
+                    <li>Secure Payments </li>
+                    <li> Email support</li>
+                    <li>Verified Dealers</li>
+
+                </ul>
+                <button type =" button " class ="card-btn"> choose a vehicle </button>
+
+            </div>
+            <!--  PRO PLAN -->
+
+            <div class ="card active" id="card-2">
+                <h1 class ="card-title"> Basic</h1>
+                <h2 class ="card-price" id="pro-price" > 5000Rs <span> /weak </span></h2>
+
+                <select id="vinay" >
+                    <option value ="700" > 700  maus</option>
+                    <option value ="750" > 750  maus</option>
+                    <option value ="800" >800  maus</option>
+                    <option value ="850" > 850  maus</option>
+                    <option value ="900" > 900  maus</option>
+                     </select>
+                      <span class =" note" >monthly active users </span>
+
+                <ul class ="card-plan">
+                    <li>No Riding Limits </li>
+                    <li>Secure Payments </li>
+                    <li> Email support</li>
+                    <li>Verified Dealers</li>
+
+                </ul>
+                <button type =" button " class ="card-btn"> choose a vehicle </button>
+
+            </div>
+
+            <div class ="card" id="card-3">
+                <h1 class ="card-title">High-end</h1>
+                <h2 class ="card-price" id="ultra-price" > 15000Rs<span> /month</span></h2>
+                <ul class ="card-plan">
+                    <li>No Riding Limits </li>
+                    <li>Secure Payments </li>
+                    <li> Email support</li>
+                    <li>Verified Dealers</li>
+
+                </ul>
+                <button type =" button " class =" card-btn"> choose a vehicle </button>
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
